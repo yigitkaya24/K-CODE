@@ -165,6 +165,9 @@ class matris2D:
             binary_form.insert(len(binary_form), [temp_form[0], temp_form[1]])
             temp_form = temp_form[2:]
 
+        if temp_form != '':
+            binary_form.insert(len(binary_form), [temp_form[0], ''])
+
         for i in range(len(binary_form)):
             for j in range(len(matris_input)):
                 for k in range(len(matris_input[j])):
