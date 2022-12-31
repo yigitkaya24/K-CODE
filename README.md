@@ -8,11 +8,11 @@
 
 1. Kütüphaneyi [buraya](https://github.com/yigitkaya24/K-CODE/releases) tıklayarak indirin (.py uzantılı olan dosyayı)
     
-    ![Untitled](K-CODE%20Kullan%C4%B1m%20K%C4%B1lavuzu%20(User%20Guide)%206f84edef25964a43abc513ac9e1c1429/Untitled.png)
+    ![Untitled](README/Untitled.png)
     
 2. İndirdiğiniz dosyayı projenizinle aynı klasöre koyun ve bir alt klasöre yerleştirmeyin
     
-    ![Untitled](K-CODE%20Kullan%C4%B1m%20K%C4%B1lavuzu%20(User%20Guide)%206f84edef25964a43abc513ac9e1c1429/Untitled%201.png)
+    ![Untitled](README/Untitled%201.png)
     
 3. Python projenize eklemek için projenizin başına aşağıdaki kodu ekleyin
     
@@ -58,11 +58,11 @@
 
 1. Download the library by clicking [here](https://github.com/yigitkaya24/K-CODE/releases) (file with .py extension)
     
-    ![Untitled](K-CODE%20Kullan%C4%B1m%20K%C4%B1lavuzu%20(User%20Guide)%206f84edef25964a43abc513ac9e1c1429/Untitled.png)
+    ![Untitled](README/Untitled.png)
     
 2. Put the downloaded file in the same folder as your project and do not place it in a subfolder
     
-    ![Untitled](K-CODE%20Kullan%C4%B1m%20K%C4%B1lavuzu%20(User%20Guide)%206f84edef25964a43abc513ac9e1c1429/Untitled%201.png)
+    ![Untitled](README/Untitled%201.png)
     
 3. Add the following code at the beginning of your project to add it to your Python project
     
