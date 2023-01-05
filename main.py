@@ -1,20 +1,27 @@
 from kcode import *
 
-metin = input("Şifrelenmesi için metin giriniz: ")
+while True:
+    a = input("seç: ")
+    if  a == "":
 
-try:
-    sifrelenmis_metin = k_code.encode(metin)
-except:
-    sifrelenmis_metin = "ŞİFRELEME YAPARKEN HATA OLUŞTU!"
+        metin = input("Şifrelenmesi için metin giriniz (Boş geçerseniz encode eder, herhangi bir şey yazarsanız decode eder, x yazarsanız programı kapatır): ")
 
-print("Şifrelenmiş metin: ", sifrelenmis_metin)
+        try:
+            sifrelenmis_metin = k_code.encode(metin)
+        except:
+            sifrelenmis_metin = "ŞİFRELEME YAPARKEN HATA OLUŞTU!"
 
-sifre = input("Şifrelenmesi için metin giriniz: ")
+        print("Şifrelenmiş metin: ", sifrelenmis_metin)
+
+    elif a != "x":
+
+        sifre = input("Çözülmesi için metin giriniz: ")
 
 
-cozulmus_metin = k_code.decode(sifre)
+        cozulmus_metin = k_code.decode(sifre)
 
 
-print("Çözülmüş metin: ", cozulmus_metin)
+        print("Çözülmüş metin: ", cozulmus_metin)
 
-input()
+    else:
+        break

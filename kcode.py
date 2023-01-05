@@ -100,7 +100,7 @@ class matris2D:
         matris_output = [
             [1, 2, 3],
             [4, 5, 6],
-            [7, 8, 0]
+            [7, 8, 9]
         ]
 
         for i in range(len(temp_form)//2):
@@ -151,7 +151,7 @@ class matris2D:
         matris_input = [
             [1, 2, 3],
             [4, 5, 6],
-            [7, 8, 0]
+            [7, 8, 9]
         ]
 
         matris_output = [
