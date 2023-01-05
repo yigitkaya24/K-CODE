@@ -1,10 +1,10 @@
 from kcode import *
 
 while True:
-    a = input("seç: ")
+    a = input("seç  (Boş geçerseniz encode eder, herhangi bir şey yazarsanız decode eder, x yazarsanız programı kapatır) : ")
     if  a == "":
 
-        metin = input("Şifrelenmesi için metin giriniz (Boş geçerseniz encode eder, herhangi bir şey yazarsanız decode eder, x yazarsanız programı kapatır): ")
+        metin = input("Şifrelenmesi için metin giriniz: ")
 
         try:
             sifrelenmis_metin = k_code.encode(metin)
